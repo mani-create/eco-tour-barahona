@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbarNavAltMarkup a{
+    padding: 15px;   
+}
+#navbarNavAltMarkup a i{
+    padding: 10px 15px;
+    border: 1px solid greenyellow;
+    margin-top: -5px;
+}
+.top-image{
+    background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.2)),url('../img/body-of-water.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    padding: 10% 10%;
+}
+/*PRIVATE SECOND SEGMENT*/
+.tailor-trip{
+    background-color: rgba(16, 158, 3, 0.623);
+    padding: 10px 20px;
+    color: white;
+}
+.group{
+    background-color: rgba(117, 43, 0, 0.719);
+    padding: 10px 20px;
+    color: white;
+    clear: both;
+    
+}
+/*GET STARTED*/
+#lets-start{
+    background-image: url('../img/aerial-photography-of-beach.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    padding: 50px;
+}
+.stat-icon{
+    padding: 50px;
+    background-color: rgba(10, 1, 1, 0.493);
+}
+.icon-colm i{
+    font-size: 3rem;
+}
+#lets-start a{
+ background-color: yellowgreen;
+ color: white;
+ text-decoration: none;
+ padding: 0.8rem 2rem;
+ border: none;
+}
+/*MODAL*/
+.modal-dialog {
+    width: 100%;
+}
+/*GET INSPERATION*/
+#insperition{
+    clear: both;
+}
+/*GUIDE*/
+.local-guid img{
+ border-radius: 50%;
+ padding: 10%;
+}
+.local-guid a{
+    background-color: yellowgreen;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.fa{
+    
+    text-decoration: none;
+}
+.rev{  
+    padding: 10px 20px;
+}
+.guid-rating a .fa{
+    font-size: 30px;
+    background-color: green;
+    padding: 10px;
+    color:black;
+    font-weight: boldd;
+    border-radius: 50%;
+    margin: 10px;
+    text-align: center;
+}
+
+.guid-review li{
+    list-style: none;
+    margin: 10px;
+}
+/*REVEIW*/
+.book-now{
+    background-color: yellowgreen;
+    margin-top: -30px;
+    padding: 20px;
+    text-align: center;
+    clear: both;
+}
+.book-now .check-date a{
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+}
+/*FOOTER*/
+#ftr{
+    background-color: darkcyan;
+    text-transform: uppercase;
+}
+#ftr img{
+    width: 100%;
+}
+.ftr-top{
+    margin: 25px auto;
+}
+.about-section ul li{
+    margin: 5px 10px;
+    list-style: none;
+    color: white;
+}
+.customer-service ul li{
+    margin: 5px 10px;
+    list-style: none;
+    color: white;
+}
+.reservation ul li{
+    margin: 5px 10px;
+    list-style: none;
+    color: white;
+}
+.social-icons i{
+    color: white;
+    padding: 5px ;
+    font-size: 2rem;
+}
+/*MEDIA QUERY*/
+@media (max-width:1000px){
+    .tailor-trip{
+        padding: 10px 10px;
+       
+    }
+    .group{
+        padding: 20px 20px;
+        
+    }
+}
+@media (max-width:994px){
+    .local-guid img{
+        padding: 5%;
+    } 
+}
+@media (max-width:770px){
+    .tailor-trip{
+        padding: 10px 10px;
+        font-size: 15px;
+       
+    }
+    .group{
+        padding: 44px 15px;
+        font-size: 15px;       
+    }
+    #lets-start{
+        padding: 30px;
+    }
+    .stat-icon{
+        padding: 30px;
+    }
+    .icon-colm i{
+        font-size: 2rem;
+    }
+}
+@media (max-width:581px){  
+    #ftr{
+        background-color: darkcyan;
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
+@media (max-width:562px){  
+    .local-guid img{
+        padding: 5% 30%;
+       } 
+       #guid{
+           align-items: center;
+       }
+}
+@media (max-width:405px){  
+    .navbar-brand {
+        width: 70%;
+    }
+    .navbar-brand img {
+        width: 100%;
+    }
+ }

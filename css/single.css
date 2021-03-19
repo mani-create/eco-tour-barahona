@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbarNavAltMarkup a{
+    padding: 15px;    
+}
+#navbarNavAltMarkup a i{
+    padding: 10px 15px;
+    border: 1px solid greenyellow;
+    margin-top: -5px;
+}
+.top-image{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)),url('../img/people-riding-horses-on-beach.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    padding: 10% 10%;
+}
+.top-text a{
+    background-color: yellowgreen;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 10px 20px;
+}
+/*COLLAPS*/
+.colaps p a{
+    text-decoration: none;
+}
+.colaps p a:hover{
+    border-bottom: 2px solid yellowgreen;
+}
+/* vertical step bar */
+.step-pro{
+    padding: 20px 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+.step-pro ul{
+    position: relative;
+    list-style: none;
+    padding: 0;
+}
+.step-pro ul:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ddd;
+    width: 2px;
+    height: 100%;
+}
+.step-pro ul li{
+    padding: 30px 30px;
+    position: relative;
+}
+.selected div{
+    color: tomato;
+}
+.step-pro li span{
+    position: absolute;
+    left: -20px;
+    font-size: 12px;
+    background-color: #fff;
+    padding: 10px 0;
+    top: 20px;
+    color: #aaa;
+}
+.Description a{
+    background-color: yellowgreen;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+/*COLLAPS BTN*/
+.mid_btn{
+    margin: 0 20%;
+}
+/*GALLERY*/
+.gallery img{
+    height: 100%;
+    width: 100%;
+}
+.gallery2 img{
+    width: 100%;
+}
+/*COROSIL SLIDER*/
+.carousel-item img{
+    height: unset;
+    width: 100%;
+    align-content: center;
+}
+/*REVEIW*/
+.book-now{
+    background-color: yellowgreen;
+    margin-top: -30px;
+    padding: 20px;
+    text-align: center;
+}
+.book-now .check-date a{
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+}
+/*FOOTER*/
+#ftr{
+    background-color: darkcyan;
+    text-transform: uppercase;
+}
+#ftr img{
+    width: 100%;
+    
+}
+.ftr-top{
+    margin: 25px auto;
+}
+.about-section ul li{
+    margin: 5px 10px;
+    list-style: none;
+    color: white;
+}
+.customer-service ul li{
+    margin: 5px 10px;
+    list-style: none;
+    color: white;
+}
+.reservation ul li{
+    margin: 5px 10px;
+    list-style: none;
+    color: white;
+}
+.social-icons i{
+    color: white;
+    padding: 5px ;
+    font-size: 2rem;
+}
+/*MEDIA QUERY*/
+@media (max-width:581px){
+    #ftr{
+        background-color: darkcyan;
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
+@media(max-width: 462px){
+    .mid_btn{
+        margin: 0 10%;
+    }
+}
+@media(max-width: 352px){
+    .mid_btn{
+        margin: 0 5%;
+    }
+}
+@media (max-width:405px){  
+    .navbar-brand{
+        width: 70%;
+    }
+    .navbar-brand img{
+        width: 100%;
+    }
+}

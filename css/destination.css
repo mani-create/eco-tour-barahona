@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbarNavAltMarkup a{
+    padding: 15px;
+    
+}
+#navbarNavAltMarkup a i{
+    padding: 10px 15px;
+    border: 1px solid greenyellow;
+    margin-top: -5px;
+}
+.top-image{
+    background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.2)),url('../img/photo-of-boys-sitting-near-doorway.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    padding: 10% 10%;
+    
+}
+/*CARIBEN PARADICE STYLE*/
+.c-text{
+    text-align: center;
+    justify-content: center;
+}
+/*IMG CARD SECTION*/
+.col_img img{
+    width: 100%;
+    margin-top: 10px;
+}
+/*GEOGRAPHY*/
+.img-sec img{
+    width: 100%;
+}
+.img-sec p{
+    background-color: white;
+    padding: 10px 20px;
+    box-shadow: 1px 1px 6px black;
+}
+
+/*SEGMENT 5*/
+#segment-five{
+    background-image: url('../img/clear-blue-sea.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px;
+    color: white;
+    text-align: center;
+}
+.seg-five-text{
+    padding: 5rem;
+    background-color:#0092af21;
+}
+/*HISTORY SECTION*/
+.his-head-text-one p{
+    margin: 20px auto;
+}
+/*IMG OVER LAP*/
+#back-imgae-one{
+    background-image: url('../img/bg3.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+.left-img img{
+    height: 100%;
+    width: 100%;
+    margin: 50px 0%;
+}
+.text-rt{
+    text-align: left;
+    background-color: white;
+    margin-top: 80px;
+}
+.text-rt a{
+    background-color: yellowgreen;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    text-decoration: none;
+}
+
+/*REVEIW*/
+.book-now{
+    background-color: yellowgreen;
+    margin-top: -30px;
+    padding: 20px;
+    text-align: center;
+}
+.book-now .check-date a{
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+}
+/*FOOTER*/
+#ftr{
+    background-color: darkcyan;
+    text-transform: uppercase;
+}
+#ftr img{
+    width: 100%;
+}
+.ftr-top{
+    margin: 25px auto;
+}
+.about-section ul li{
+    margin: 5px 10px;
+    list-style: none;
+    color: white;
+}
+.customer-service ul li{
+    margin: 5px 10px;
+    list-style: none;
+    color: white;
+}
+.reservation ul li{
+    margin: 5px 10px;
+    list-style: none;
+    color: white;
+}
+.social-icons i{
+    color: white;
+    padding: 5px ;
+    font-size: 2rem;
+}
+/*MEDIA QUERY*/
+@media (max-width:996px){
+    .text-rt{
+        text-align: left;
+        background-color: white;
+        font-size: 15px;
+    }
+}
+@media (max-width:908px){
+    .seg-five-text{
+        padding: 10px 20px;      
+    }
+}
+@media (max-width:770px){
+    .text-rt h1{
+        text-align: left;
+        background-color: white;  
+        font-size: 20px;
+        color: black;
+    }
+    .text-rt{
+        text-align: left;
+        background-color: white;
+        font-size: 10px;
+    }
+}
+@media (max-width:581px){
+    #ftr{
+        background-color: darkcyan;
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
+@media (max-width:516px){
+    .seg-five-text{
+        padding: 5px 10px;
+        font-size: 15px;
+    }
+}
+@media (max-width:484px){
+    .seg-five-text{
+        padding: 2px 5px;
+        font-size: 15px;
+    }
+}
+@media (max-width:484px){
+    .seg-five-text{
+        padding: 2px 5px;
+        font-size: 10px;
+    }
+}
+@media (max-width:405px){
+    .navbar-brand {
+        width: 70%;
+    }
+    .navbar-brand img {
+        width: 100%;
+    }
+}

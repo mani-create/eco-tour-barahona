@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbarNavAltMarkup a{
+    padding: 15px;
+}
+#navbarNavAltMarkup a i{
+    padding: 10px 15px;
+    border: 1px solid greenyellow;
+    margin-top: -5px;
+}
+.top-image{
+    background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.2)),url('../img/bg2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    padding: 10% 10%;
+}
+.top-text h1{
+    margin: 40px auto;
+}
+.top-text a{
+    background-color: yellowgreen;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    text-decoration: none;
+}
+.top-text a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 1px 2px 10px black;
+}
+/*IMAGE ICON*/
+.t-img-icon img{
+    margin: 80px;
+    height: 50%;
+    width: 50%;
+}
+.t-img-icon P{
+    margin: -40px 116px;
+}
+/*3RD SECTION*/
+#back-imgae-one{
+    background-image: url('../img/bg3.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+.left-img img{
+    height: 100%;
+    width: 100%;
+    margin: 50px 0%;
+}
+.text-rt{
+    text-align: left;
+    background-color: white;
+    margin-top: 80px;
+}
+.text-rt a{
+    background-color: yellowgreen;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    text-decoration: none;
+}
+/*FEATURED TRAVEL EXPERIENCES*/
+#travel-experiance{
+    margin-top: auto;
+    text-align: center;
+}
+.travel-menu{
+    margin-top: 20px;
+}
+.travel-image-1{
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.2)),url('../img/pexels-photo.jpeg');
+    background-size: cover;
+    padding: 30px;
+    color: white;
+    text-align: left;
+    margin-top: 10px;
+}
+.price{
+    background-color: yellowgreen;
+    color: white;
+    padding: 3px 10px;
+}
+.travel-image-2{
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.2)),url('../img/pexels-photo-1.jpeg');
+    background-size: cover;
+    padding: 30px;
+    color: white;
+    text-align: left;
+    margin-top: 20px;
+}
+.travel-image-3{
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.2)),url('../img/pexels-photo-2.jpeg');
+    background-size: cover;
+    padding: 30px;
+    color: white;
+    text-align: left;
+    margin-top: 20px;
+}
+.travel-image-4{
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.2)),url('../img/pexels-photo-3.jpeg');
+    background-size: cover;
+    padding: 30px;
+    color: white;
+    text-align: left;
+    margin-top: 20px;
+}
+.travel-image-5{
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.2)),url('../img/pexels-photo-4.jpeg');
+    background-size: cover;
+    padding: 30px;
+    color: white;
+    text-align: left;
+    margin-top: 20px;
+}
+.travel-image-6{
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.2)),url('../img/pexels-photo-5.jpeg');
+    background-size: cover;
+    padding: 30px;
+    color: white;
+    text-align: left;
+    margin-top: 20px;
+}
+.travel-image-7{
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.2)),url('../img/pexels-photo-6.jpeg');
+    background-size: cover;
+    padding: 30px;
+    color: white;
+    text-align: left;
+    margin-top: 20px;
+}
+.travel-image-8{
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.2)),url('../img/pexels-photo-7.jpeg');
+    background-size: cover;
+    padding: 30px;
+    color: white;
+    text-align: left;
+    margin-top: 20px;
+}
+/*OUR BRAND SECTION*/
+#our-brand{
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.2)),url('../img/bg4.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px;
+    color: white;
+    text-align: center;
+}
+.brand-contant{
+    background-color: rgba(95, 158, 160, 0.596);
+    text-align: center;
+}
+.brand-contant i{
+    font-size: 3rem;
+}
+/*CUSTOMER REVIEW*/
+#review{
+    margin-top: 5rem;
+}
+#review img{
+    height: 30%;
+}
+#review .rev {
+    background-color: yellowgreen;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    color: white;
+}
+.book-now{
+    background-color: yellowgreen;
+    margin-top: -30px;
+    padding: 20px;
+    text-align: center;
+}
+.book-now .check-date a{
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+}
+/*FOOTER*/
+#ftr{
+    background-color: darkcyan;
+    text-transform: uppercase;
+}
+#ftr img{
+    width: 100%;
+}
+.ftr-top{
+    margin: 25px auto;
+}
+.about-section ul li{
+    margin: 5px 10px;
+    list-style: none;
+    color: white;
+}
+.customer-service ul li{
+    margin: 5px 10px;
+    list-style: none;
+    color: white;
+}
+.reservation ul li{
+    margin: 5px 10px;
+    list-style: none;
+    color: white;
+}
+.social-icons i{
+    color: white;
+    padding: 5px ;
+    font-size: 2rem;
+}
+/*MEDIA QUERY*/
+@media (max-width:996px){
+    .text-rt{
+        text-align: left;
+        background-color: white;
+        font-size: 14px;
+    }
+    .text-rt h1{
+        text-align: left;
+        background-color: white;
+        font-size: 20px;
+        color: black;
+    }
+}
+@media (max-width:836px){
+    .brand-contant i{
+        font-size: 2rem;
+    }
+    .brand-contant p{
+        font-size: 13px;
+    }
+}
+@media (max-width:770px){
+    .text-rt h1{
+        text-align: left;
+        background-color: white;  
+        font-size: 20px;
+        color: black;
+    }
+    .text-rt{
+        text-align: left;
+        background-color: white;
+        font-size: 10px;
+    }
+}
+@media (max-width:581px){
+    #ftr{
+        background-color: darkcyan;
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
+@media (max-width:574px){
+    #review img{
+        height: 30%;
+        margin-top: 20px;
+    }
+    #review{
+        text-align: center;
+    }
+}
+@media (max-width:405px){
+   .navbar-brand {
+       width: 70%;
+    }
+   .navbar-brand img {
+       width: 100%;
+    }
+}
